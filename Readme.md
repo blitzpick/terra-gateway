@@ -94,7 +94,7 @@ API description.
 
 ##### methods
 
-Map of HTTP methods to their respective **request** and responses.
+Map of HTTP methods to their respective **request** and **responses**.
 
 ###### request
 
