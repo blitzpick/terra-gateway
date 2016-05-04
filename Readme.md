@@ -96,7 +96,7 @@ API description.
 
 Map of HTTP methods to their respective **request** and responses.
 
-**request**
+###### request
 
 Type: `object`
 
@@ -104,7 +104,7 @@ Type: `object`
 - `lambda_arn` - {string} - Lambda arn.
 - `templates` - {object} - Request mapping template.
 
-**responses**
+###### responses
 
 Map of response codes to body and header maps.
 
