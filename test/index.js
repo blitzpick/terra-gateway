@@ -54,9 +54,8 @@ test('should work', (t) => {
   }
 
   terraGateway.DEPTH = 2
-  terraGateway(spec, __dirname + '/function_router.tf.json')
+  const out = terraGateway(spec)
 
-  const out = require('./function_router.tf.json')
   t.ok(out.resource)
   t.ok(out.resource["aws_api_gateway_rest_api"])
   t.ok(out.resource["aws_api_gateway_resource"])
