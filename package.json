@@ -2,7 +2,7 @@
   "name": "terra-gateway",
   "description": "Create terraform_api_gateway configs from a simple spec.",
   "repository": "git://github.com/joshrtay/terra-gateway.git",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
